@@ -1,0 +1,60 @@
+.promo {
+    position: relative;
+    margin-top: 83px;
+
+    &__block {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__pattern {
+        top: 0;
+        right: 0;
+        transform: translateX(50%);
+    }
+    &__info {
+        width: 445px;
+    }
+    &__text {
+        padding-top: 24px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    &__button {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    &__deskr {
+        font-size: 16px;
+        font-weight: 700; //bold
+    }
+    &__img {
+        width: 540px;
+        img {
+            width: 100%;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
