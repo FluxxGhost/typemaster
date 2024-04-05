@@ -1,0 +1,14 @@
+.footer {
+    padding-top: 128px;
+    padding-bottom: 39px;
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+
+        &_first {
+            font-weight: 700;
+        }
+    }
+}
